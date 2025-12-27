@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalArts | Premium Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="blob-wrapper">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">DigitalArts</div>
+            <ul class="nav-menu">
+                <li class="dropdown">
+                    <a href="#" class="nav-link menu-trigger">Menu ☰</a>
+                    <ul class="dropdown-content glass-card">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#" class="nav-link" id="open-modal">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-btn">Dark Mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="glass-card main-content">
+                    <span class="badge">New Trend 2025</span>
+                    <h1>Creative Design with Glassmorphism</h1>
+                    <p>Экспериментируйте с прозрачностью и размытием для создания современного интерфейса.</p>
+                    <div class="hero-btns">
+                        <button class="btn btn-primary">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio container" id="portfolio">
+            <h2 class="section-title">Примеры работ</h2>
+            <div class="portfolio-grid">
+                <div class="glass-card portfolio-item">
+                    <img src="img/1.png" alt="Project 1">
+                    <h3>UI Design</h3>
+                </div>
+                <div class="glass-card portfolio-item">
+                    <img src="img/2.png" alt="Project 2">
+                    <h3>Web App</h3>
+                </div>
+                <div class="glass-card portfolio-item">
+                    <img src="img/3.png" alt="Project 3">
+                    <h3>Mobile Concept</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <h2>Свяжитесь с нами</h2>
+            <div class="contact-box">
+                <p>Для связи с нами:</p>
+                <a href="tel:+79990000000" class="phone-number">+7 (999) 000-00-00</a>
+            </div>
+            <p class="sub-text">Мы ответим на все ваши вопросы.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 ИПТИП. Практическая работа №4.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
